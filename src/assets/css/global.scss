@@ -1,0 +1,77 @@
+$cancleBtnBg: #970909;
+$subBtnBg: #1c447a;
+$negativeBtnColor: #333;
+$agreeBtnColor: #1f7b2b;
+$globalFontSize: 14px;
+$globalBg: #f0f2f5;
+$globalFontFamily: Avenir, Helvetica, Arial, sans-serif;
+$globalFontColor: #333;
+$globalValueColor: rgba(0, 0, 0, 0.65); // value的颜色
+$globalHr: #ebebeb;
+// 蓝色小标题 16px #1c447a bold
+.titleColor {
+  font-size: 16px;
+  color: #1c447a;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+// 律师卡片名称 18px #333 bold
+.lawyerCardLable {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+html {
+  overflow: hidden;
+}
+html, body, div {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: $globalFontSize;
+  color: $globalFontColor;
+  background: $globalBg;
+}
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.primaryBtn {
+  background: $subBtnBg;
+}
+.successBtn {
+  background: $agreeBtnColor
+}
+.errorBtn {
+  background: $cancleBtnBg
+}
+.containPadding {
+  padding: 20px;
+}
+.flexRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  .rowLabel {
+    width: 80px;
+    flex-shrink: 0;
+  }
+  .rowValue {
+    flex: 1;
+    padding-right: 50px;
+  }
+}
+// 分页
+.page {
+  margin: 10px;
+  text-align: right;
+}

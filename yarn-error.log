@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/zhangxuchao/.nvm/versions/node/v10.15.3/bin/node /Users/zhangxuchao/.nvm/versions/node/v10.15.3/bin/yarn install
+
+PATH: 
+  /Users/zhangxuchao/.nvm/versions/node/v10.15.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/zhangxuchao/lawyer-matching/node_modules/chalk/node_modules/ansi-styles'
+
+npm manifest: 
+  {
+    "name": "lawyer-matching",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "core-js": "^3.6.5",
+      "element-plus": "^1.0.2-beta.53",
+      "vue": "^3.0.0",
+      "vue-native-websocket-vue3": "^3.1.0",
+      "vue-router": "^4.0.0-0",
+      "vuex": "^4.0.0-0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-plugin-router": "~4.5.0",
+      "@vue/cli-plugin-vuex": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "@vue/compiler-sfc": "^3.0.0",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^7.0.0",
+      "sass": "^1.26.5",
+      "sass-loader": "^8.0.2",
+      "vue-loader-v16": "^16.0.0-beta.5.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
